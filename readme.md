@@ -11,9 +11,9 @@ The text is rendered a bit nicer in the linux version.
 1. Get the loki games CD or an iso of it
 2. Mount it and run `setup.data/bin/Linux/x86/setup`
 3. Try running the binaries `smac` and `smacx`. They're static and it's not impossible they'll *just work*. Can also try `qemu-i386 smac`. Didn't work for me (segfault without qemu; `Unable to initialize SDL: Not enough resources to create thread` with)
-3. If it's not working yet or you want allegedly less bugs, get the 6.0a patch http://updates.lokigames.com/smac/
+3. If it's not working yet or you want allegedly less bugs, get the 6.0a patch http://updates.lokigames.com/smac/ (also on releases page)
 4. Run it with `smac-6.0a-x86.run --keep` because it won't find `loki-patch`. Then `cd smac-6.0a-x86; bin/Linux/x86/loki_patch patch.dat /path/to/smac/` to patch
-5. Get the Loki compatibility libraries from http://www.improbability.net/loki/
+5. Get the Loki compatibility libraries from http://www.improbability.net/loki/ (also on releases page)
 6. Run with `LD_LIBRARY_PATH=/path/to/Loki_Compat /path/to/Loki_Compat/ld-linux.so.2 /path/to/smac/smacx.dynamic`
 7. If you don't want it to steal the whole display use Xephyr (see launch script below)
 
