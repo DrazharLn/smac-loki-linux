@@ -25,18 +25,6 @@ IP multiplayer crashes the game. Hotseat/PBEM is fine.
 
 Check Loki's FAQ: http://faqs.lokigames.com/smacfaq.html
 
-## 6.0a patch changelog
-
-New enhancements include:
- * Added Voice Over IP support (activated by the '\' key in-game)
- * Fixed system hang on some newer x86 processors.
- * Fixed colony pod instant win bug.
- * Fixed several floating point exceptions.
- * Fixed crash when using the Planetbuster.
- * Patrol waypoints are limited to 2 instead of 3 (fix memory corruption).
- * Movies now play when started with a key press.
- * Demo tutorial text no longer refers to the Windows start menu.
-
 ## Launch script
 
 Adapted from a script on the lutris db. You'll probably want to change the paths.
